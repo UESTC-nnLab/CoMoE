@@ -103,7 +103,7 @@ python predict.py
 | CoMoE   | IRDST-R     | 69.47     | 80.15         | 88.28      | 84.02   |                  |
 
 ![pr](readme/pr.png)
-s
+
 - Even under limited data settings, CoMoE outperforms general joint learning methods, and SOTA single-domain ones.
 
 ![limited](readme/limited.png)
