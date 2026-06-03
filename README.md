@@ -118,13 +118,14 @@ IF any questions, please contact with Weiwei Duan via email: [dwwuestc@163.com](
 
 ## citation
 ```
-@InProceedings{Duan_2026_CVPR,
-    author    = {Duan, Weiwei and Ji, Luping and Lei, Shipeng and Zhu, Sicheng and Huang, Jianghong and Ye, Mao},
-    title     = {CHAL: Causal-guided Hierarchical Anomaly-aware Learning for Moving Infrared Small Target Detection},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2026},
-    pages     = {21357-21366}
+@inproceedings{duan2026cross,
+  title={Cross-domain Joint Learning with Prototype-guided Mixture-of-Experts for Infrared Moving Small Target Detection},
+  author={Duan, Weiwei and Ji, Luping and Huang, Jianghong and Zhu, Sicheng and Ye, Mao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={5},
+  pages={3732--3740},
+  year={2026}
 }
 ```
 
