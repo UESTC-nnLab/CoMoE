@@ -20,7 +20,7 @@ Infrared small target detection often faces significant domain gaps across datas
 
 ## Datasets (bounding box-based)
 - Datasets are available at [DAUB-H](https://pan.baidu.com/s/18hq2ArrOSNoFh0Nq0u-ZlA) (code: xkps), [ITSDT-15K](https://drive.google.com/file/d/1nnlXK0QCoFqToOL-7WdRQCZfbGJvHLh2/view?usp=sharing) and [IRDST-R](https://pan.baidu.com/s/1XRiP6nhWgzy8Cn0i-EssVA) (code: kt4d). DAUB-H is the hard version of DAUB, IRDST-R is the reconstruced version of IRDST.
-- You need to reorganize these datasets in a format similar to the `coco_train_multi.txt` and `coco_val_multi.txt` files we provided (`.txt files` are used in training).  We provide the `.txt files` for ITSDT-15K, DAUB-R and IRDST-H.
+- You need to reorganize these datasets in a format similar to the `coco_train_multi.txt` and `coco_val_multi.txt` files we provided (`.txt files` are used in training).  We provide the `.txt files` for ITSDT-15K, DAUB-H and IRDST-R.
   For example:
 
 ```python
@@ -116,5 +116,15 @@ IF any questions, please contact with Weiwei Duan via email: [dwwuestc@163.com](
 2. Bingwei Hui, Zhiyong Song, Hongqi Fan, et al. A dataset for infrared image dim-small aircraft target detection and tracking under ground / air background[DS/OL]. V1. Science Data Bank, 2019[2024-12-10]. https://cstr.cn/31253.11.sciencedb.902. CSTR:31253.11.sciencedb.902.
 3. Ruigang Fu, Hongqi Fan, Yongfeng Zhu, et al. A dataset for infrared time-sensitive target detection and tracking for air-ground application[DS/OL]. V2. Science Data Bank, 2022[2024-12-10]. https://cstr.cn/31253.11.sciencedb.j00001.00331. CSTR:31253.11.sciencedb.j00001.00331.
 
-
+## citation
+```
+@InProceedings{Duan_2026_CVPR,
+    author    = {Duan, Weiwei and Ji, Luping and Lei, Shipeng and Zhu, Sicheng and Huang, Jianghong and Ye, Mao},
+    title     = {CHAL: Causal-guided Hierarchical Anomaly-aware Learning for Moving Infrared Small Target Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {21357-21366}
+}
+```
 
